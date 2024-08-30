@@ -1,5 +1,7 @@
 *{
     font-family: 'Ogg';
+    /* width: 95%; */
+    /* margin: auto; */
 }
 .container{
     display: flex;
@@ -12,7 +14,7 @@
 .container1{
     display: flex;
     flex-direction: column;
-    /* padding: 0px 100px; */
+    padding: 0px 10rem;
     height: 100%;
     justify-content: center;
     /* overflow: hidden; */
@@ -50,8 +52,14 @@
     font-weight: lighter;
 }
 .left-side-quote{
-    margin-left: 120px;
+    /* margin-left: 120px; */
     line-height: 20px;
+    width: 100%;
+    display: flex;
+    /* justify-self: ; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
 }
 .left-side-quote p{
     color: black;
@@ -60,7 +68,8 @@
     word-spacing: 10px;
     text-transform: uppercase;
     font-weight: 300;
-
+    max-width: 90%;
+    
 }
 .flower-svg{
     margin-left: 150px;
@@ -74,18 +83,21 @@
     margin-top: 25vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
     justify-content: space-between;
     flex-direction: column;
+ 
 }
 .main-h1-short-about{
+    width: 100%;
     margin-top: 100px;
 }
 .sub-main-p-short-about{
     margin-top: 140px;
 }
 .short-about h1{
-    font-size: 150px;
+    font-size: 10rem;
     font-weight: 500;
     font-family: 'Ogg';
     margin-bottom: -150px;
@@ -223,7 +235,7 @@
 }
 
 
-@media screen and (min-width: 1024px) {
+@media  (min-width: 1024px) {
     .container {
         flex-direction: row;
         height: 100vh;
@@ -246,7 +258,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
     .container {
         flex-direction: column;
         align-items: flex-start;
@@ -268,8 +280,13 @@
         /* margin-top: -50px; */
     }
     .left-side-quote p {
+        /* margin: auto; */
+        display: flex;
+        align-items: center;
+        /* justify-self: center; */
+        justify-content: center;
         font-size: 12px;
-        text-align: center;
+        text-align: left;
         word-spacing: 5px;
     }
     .flower-svg {
@@ -280,13 +297,14 @@
         width: 60px;
     }
     .short-about h1 {
-        font-size: 5rem;
+        font-size: 1rem;
         margin-bottom: -100px;
         width: 100%;
+        /* line-height: 4rem; */
         height: 100px;
     }
     .short-about p {
-        font-size: 14px;
+        font-size: 3rem;
     }
     .another-svg {
         margin-top: 20px;
