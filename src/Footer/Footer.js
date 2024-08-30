@@ -15,13 +15,10 @@ function Footer() {
                            Social
                        </div>
                        <div className="social-links-items">
-                           <a href="">Youtube</a>
-                           <a href="">Facebook</a>
-                           <a href="">Instagram</a>
-                           <a href="">Twitter</a>
-                           <a href="">Github</a>
-                           <a href="">LinkedIn</a>
-                           <a href="">Snapchat</a>
+                           <a href="https://www.instagram.com/_nishant_singhh_/">Instagram</a>
+                           <a href="https://x.com/Nishant37315718?t=ihpQOy_8NvLLSuwTEOhEWQ&s=09">Twitter</a>
+                           <a href="https://github.com/NishantSinghhhhh">Github</a>
+                           <a href="https://www.linkedin.com/in/nishant-singh-8a5a00282/">LinkedIn</a>
                        </div>
                    </div>
                    <div className="social-links">
@@ -29,10 +26,8 @@ function Footer() {
                            Contact
                        </div>
                        <div className="social-links-items">
-                           <a href="">Mail</a>
-                           <a href="">Whatsapp</a>
-                           <a href="">Telegram</a>
-                           <a href="">+92 302 4606680</a>
+                       <a href="mailto:nishant.1703.developer@gmail.com?subject=Subject%20Here&body=Body%20Here">Mail</a>
+                           <>+91 9649959730</>
                        </div>
                    </div>
                    <div className="footer-menu social-links">
@@ -52,35 +47,35 @@ function Footer() {
                </div>
                <div className="footer-bottom">
                    <div className="left-footer-bottom">
-                       <p>Pakistan</p>
+                       <p>India</p>
                    </div>
                    <div className="right-footer-bottom">
-                       <p>2021. Taimoor Shahzada. ALL RIGHT RESERVED</p>
+                       <p>Nishant Singh</p>
                    </div>
                </div>
            </div>
-           <div className="footer-ticker">
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-               <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-           </div>
+           {/* <div className="footer-ticker">
+               <div className="footer-ticker-item">Nishant Singh</div>
+               <div className="footer-ticker-item">Nishant Singh</div>
+               <div className="footer-ticker-item">Nishant Singh</div>
+               <div className="footer-ticker-item">Nishant Singh </div>
+               <div className="footer-ticker-item">Nishant Singh</div>
+               <div className="footer-ticker-item">Nishant Singh</div>
+               <div className="footer-ticker-item">Nishant Singh </div>
+               <div className="footer-ticker-item">Nishant Singh </div>
+               <div className="footer-ticker-item">Nishant Singh</div>
+               <div className="footer-ticker-item">Nishant Singh</div>
+               <div className="footer-ticker-item">Nishant Singh </div>
+               <div className="footer-ticker-item">Nishant Singh</div>
+               <div className="footer-ticker-item">Nishant Singh</div>
+               <div className="footer-ticker-item">Nishant Singh </div>
+               <div className="footer-ticker-item">Nishant Singh </div>
+               <div className="footer-ticker-item">Nishant Singh </div>
+               <div className="footer-ticker-item">Nishant Singh</div>
+               <div className="footer-ticker-item">Nishant Singh</div>
+               <div className="footer-ticker-item">Nishant Singh </div>
+               <div className="footer-ticker-item">Nishant Singh </div>
+           </div> */}
         </div>
     )
 }
