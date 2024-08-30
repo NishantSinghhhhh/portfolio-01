@@ -6,9 +6,9 @@ function Footer() {
            <div className="footer">
                <div className="footer-container">
                    <div className="message-for-users">
-                       <span>
+                   
                            Please contact me in any way <br /> you like
-                       </span>
+                     
                    </div>
                    <div className="social-links">
                        <div className="social-links-h">
@@ -27,7 +27,7 @@ function Footer() {
                        </div>
                        <div className="social-links-items">
                        <a href="mailto:nishant.1703.developer@gmail.com?subject=Subject%20Here&body=Body%20Here">Mail</a>
-                           <>+91 9649959730</>
+                           <> +91 9649959730</>
                        </div>
                    </div>
                    <div className="footer-menu social-links">
@@ -42,7 +42,7 @@ function Footer() {
                        </div>
                    </div>
                    <div className="footer-btn">
-                       <a href="" className='footer-btn-a'>Get Started!</a>
+                       <a href="/" className='footer-btn-a'>Get Started!</a>
                    </div>
                </div>
                <div className="footer-bottom">

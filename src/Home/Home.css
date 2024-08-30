@@ -12,22 +12,25 @@
 .container1{
     display: flex;
     flex-direction: column;
-    padding: 0px 100px;
+    /* padding: 0px 100px; */
     height: 100%;
     justify-content: center;
-    overflow: hidden;
+    /* overflow: hidden; */
+    /* width: 200%; */
 
 }
 .txt-line{
     overflow: hidden;
+    display: inline-block;
 }
 .txt-line p{
     font-size: 180px;
     text-transform: capitalize;
     letter-spacing: -10px;
     font-family: 'Ogg';
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 100%;
+    width: 100%;
     line-height: 90%;
 }
 .line-bottom{
@@ -139,7 +142,7 @@
 .reel-item{
     font-weight: 400;
     font-family: 'Ogg';
-    font-size: 180px;
+    font-size: 10rem;
     text-transform: uppercase;
 }
 .skill-set-boxes{
@@ -217,4 +220,97 @@
 }
 .h1-project img{
     width: 90px;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .container {
+        flex-direction: row;
+        height: 100vh;
+    }
+    .txt-line p {
+        font-size: 180px;
+    }
+    .left-side-quote p {
+        font-size: 15px;
+    }
+    .short-about h1 {
+        font-size: 150px;
+    }
+    .short-about p {
+        font-size: 18px;
+    }
+    .skill-set-box {
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 1.25rem;
+        /* padding-right: 140px; */
+    }
+    .container1 {
+        /* padding: 0px 20px; */
+        display: flex;
+        flex-direction: column;
+    }
+    .txt-line p {
+        font-size: 7rem;
+        letter-spacing: -5px;
+        /* right: 0px; */
+
+    }
+    .line-bottom {
+        /* margin-top: -50px; */
+    }
+    .left-side-quote p {
+        font-size: 12px;
+        text-align: center;
+        word-spacing: 5px;
+    }
+    .flower-svg {
+        margin-left: 0;
+        margin-top: -150px;
+    }
+    .flower-svg img {
+        width: 60px;
+    }
+    .short-about h1 {
+        font-size: 5rem;
+        margin-bottom: -100px;
+        width: 100%;
+        height: 100px;
+    }
+    .short-about p {
+        font-size: 14px;
+    }
+    .another-svg {
+        margin-top: 20px;
+    }
+    .another-svg img {
+        width: 40px;
+    }
+    .my-skills-reel {
+        margin-top: 200px;
+        font-size: 5rem;
+    }
+    .skill-set-boxes {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .skill-set-box {
+        width: 250px;
+        height: 160px;
+        margin: 20px 0;
+    }
+    .project-and-work h1 {
+        /* font-size: 4rem; */
+        text-align: center;
+    }
 }
