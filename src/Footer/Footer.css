@@ -1,4 +1,4 @@
-.footer{
+.footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,37 +10,45 @@
     text-transform: uppercase;
     color: white;
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
     height: 80%;
+    flex-wrap: wrap;
 }
-.footer-container .message-for-users span{
+
+.footer-container .message-for-users span {
     font-size: 14px;
     font-family: 'Inter';
     font-weight: lighter;
     margin: 20px;
 }
-.footer-container .social-links{
+
+.footer-container .social-links {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin: 20px;
 }
-.footer-container .social-links .social-links-h{
+
+.footer-container .social-links .social-links-h {
     font-size: 20px;
     margin-bottom: 10px;
     font-family: 'Inter';
     font-weight: bold;
 }
-.footer-container .social-links .social-links-items{
+
+.footer-container .social-links .social-links-items {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.footer a, .footer p{
+
+.footer a,
+.footer p {
     color: #e0e0e0;
     text-decoration: none;
     font-family: 'Inter';
@@ -48,59 +56,124 @@
     font-weight: lighter;
     cursor: pointer;
     margin-top: 5px;
-    border-bottom: 1px dashed transparent;  
-    transition: border .8s cubic-bezier(.16,1,.3,1);
+    border-bottom: 1px dashed transparent;
+    transition: border .8s cubic-bezier(.16, 1, .3, 1);
 }
+
 .footer-container p:hover,
-.footer-container a:hover{
+.footer-container a:hover {
     border-bottom: 1px dashed white;
-    transition: text-decoration .8s cubic-bezier(.16,1,.3,1);
+    transition: text-decoration .8s cubic-bezier(.16, 1, .3, 1);
 }
-.footer-btn{
+
+.footer-btn {
     padding: 85px 50px;
     border: 1px dashed white;
     border-radius: 50%;
     margin: 20px;
 }
-.footer-bottom{
+
+.footer-bottom {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-bottom: 20px;
 }
-.left-footer-bottom{
+
+.left-footer-bottom {
     margin-left: 80px;
 }
-.right-footer-bottom{
+
+.right-footer-bottom {
     margin-right: 50px;
 }
-.footer-ticker{
+
+.footer-ticker {
     width: 100%;
     overflow: hidden;
     background-color: white;
     display: flex;
     align-items: center;
     white-space: nowrap;
-    width: fit-content;
     will-change: transform;
     animation: animation-reel 60s infinite linear;
 }
-.footer-ticker-{
-}
-@keyframes animation-reel {
-    from{
-        transform: translateX(0%);
-    }
-    to{
-        transform: translateX(-100%);
-    }
-}
 
-.footer-ticker-item{
+.footer-ticker-item {
     font-weight: bold;
     color: black;
     font-family: 'Inter';
     font-size: 15px;
     text-transform: uppercase;
+}
 
+/* Tablet view */
+@media screen and (max-width: 1024px) {
+    .footer {
+        margin-top: 100px;
+        height: auto;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    .footer-container .message-for-users span {
+        font-size: 12px;
+    }
+    .footer-container .social-links .social-links-h {
+        font-size: 18px;
+    }
+    .footer-container .social-links .social-links-items a,
+    .footer-container .social-links .social-links-items p {
+        font-size: 14px;
+    }
+    .footer-btn {
+        padding: 60px 40px;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 20px;
+    }
+    .left-footer-bottom,
+    .right-footer-bottom {
+        margin: 0;
+    }
+}
+
+/* Mobile view */
+@media screen and (max-width: 767px) {
+    .footer {
+        margin-top: 50px;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-container .message-for-users span {
+        font-size: 10px;
+    }
+    .footer-container .social-links .social-links-h {
+        font-size: 16px;
+    }
+    .footer-container .social-links .social-links-items a,
+    .footer-container .social-links .social-links-items p {
+        font-size: 12px;
+    }
+    .footer-btn {
+        padding: 50px 30px;
+        margin-top: 30px;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .left-footer-bottom,
+    .right-footer-bottom {
+        margin: 10px 0;
+    }
 }

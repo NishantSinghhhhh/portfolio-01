@@ -54,28 +54,6 @@ function Footer() {
                    </div>
                </div>
            </div>
-           {/* <div className="footer-ticker">
-               <div className="footer-ticker-item">Nishant Singh</div>
-               <div className="footer-ticker-item">Nishant Singh</div>
-               <div className="footer-ticker-item">Nishant Singh</div>
-               <div className="footer-ticker-item">Nishant Singh </div>
-               <div className="footer-ticker-item">Nishant Singh</div>
-               <div className="footer-ticker-item">Nishant Singh</div>
-               <div className="footer-ticker-item">Nishant Singh </div>
-               <div className="footer-ticker-item">Nishant Singh </div>
-               <div className="footer-ticker-item">Nishant Singh</div>
-               <div className="footer-ticker-item">Nishant Singh</div>
-               <div className="footer-ticker-item">Nishant Singh </div>
-               <div className="footer-ticker-item">Nishant Singh</div>
-               <div className="footer-ticker-item">Nishant Singh</div>
-               <div className="footer-ticker-item">Nishant Singh </div>
-               <div className="footer-ticker-item">Nishant Singh </div>
-               <div className="footer-ticker-item">Nishant Singh </div>
-               <div className="footer-ticker-item">Nishant Singh</div>
-               <div className="footer-ticker-item">Nishant Singh</div>
-               <div className="footer-ticker-item">Nishant Singh </div>
-               <div className="footer-ticker-item">Nishant Singh </div>
-           </div> */}
         </div>
     )
 }

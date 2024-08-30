@@ -6,7 +6,7 @@ function GetInTouch() {
         <div>
         <div className="get-in-touch">
             <h1>GET IN TOUCH</h1>
-            <p>If you have any general project or enquiry feel free and contact us - available now!</p>
+            {/* <p>If you have any general project or enquiry feel free and contact us - available now!</p> */}
             <img src={flower2} alt="" />
         </div>
         </div>
