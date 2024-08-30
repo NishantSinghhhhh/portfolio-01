@@ -19,98 +19,100 @@ function Projects() {
                     <div className="project-page-items">
                         <div className="project-page-item">
                             <div className="project-page-item-number">
-                                <p>01/06</p>
+                                <p>July 2024</p>
                             </div>
                             <a href="/">
                                 <div className="project-page-item-header">
-                                    <h1>Lorem, ipsum.</h1>
-                                    <p>Lorem, ipsum.</p>
+                                    <h1>Yoom</h1>
+                                    <p>-NEXTJS PRISMA-orm </p>
                                 </div>
                                 <div className="project-page-item-image project-page-item-image1"></div>
-                                <div className="project-page-item-footer">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                    <img src={arrow} alt="" />
-                                </div>
+                                <a href="https://yoooom.netlify.app/" className="project-page-item-footer" target="_blank" rel="noopener noreferrer">
+                                <p>Live Link</p>
+                                    <img src={arrow} alt="Arrow" />
+                                </a>
                             </a>
                         </div>
+                        {/* https://ai-content-generator-01.netlify.app/ */}
                         <div className="project-page-item">
                             <div className="project-page-item-number">
-                                <p>02/06</p>
+                                <p>May 2024 June 2024</p>
                             </div>
                             <a href="/">
                                 <div className="project-page-item-header">
-                                    <h1>Lorem, ipsum.</h1>
-                                    <p>Lorem, ipsum.</p>
+                                    <h1>AI Content Generator</h1>
+                                    <p>Nextjs gemini</p>
                                 </div>
                                 <div className="project-page-item-image project-page-item-image2"></div>
-                                <div className="project-page-item-footer">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                    <img src={arrow} alt="" />
-                                </div>
+                                <a href="https://ai-content-generator-01.netlify.app/" className="project-page-item-footer" target="_blank" rel="noopener noreferrer">
+                                <p>Live Link</p>
+                                    <img src={arrow} alt="Arrow" />
+                                </a>
                             </a>
                         </div>
+                        {/* https://dashboard-three-delta-61.vercel.app/ */}
                         <div className="project-page-item">
                             <div className="project-page-item-number">
-                                <p>03/06</p>
+                                <p>Februrary 2024 </p>
                             </div>
                             <a href="/">
                                 <div className="project-page-item-header">
-                                    <h1>Lorem, ipsum.</h1>
-                                    <p>Lorem, ipsum.</p>
+                                    <h1>Virtual IR</h1>
+                                    <p></p>
                                 </div>
                                 <div className="project-page-item-image project-page-item-image3"></div>
-                                <div className="project-page-item-footer">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                    <img src={arrow} alt="" />
-                                </div>
+                                <a href="https://virtual-ir-ten.vercel.app/" className="project-page-item-footer" target="_blank" rel="noopener noreferrer">
+                                <p>Live Link</p>
+                                    <img src={arrow} alt="Arrow" />
+                                </a>
                             </a>
                         </div>
                         <div className="project-page-item">
                             <div className="project-page-item-number">
-                                <p>04/06</p>
+                                <p>February 2024</p>
                             </div>
                             <a href="/">
                                 <div className="project-page-item-header">
-                                    <h1>Lorem, ipsum.</h1>
-                                    <p>Lorem, ipsum.</p>
+                                    <h1>Dashboard </h1>
+                                    <p>Reactjs tailwind Css </p>
                                 </div>
                                 <div className="project-page-item-image project-page-item-image4"></div>
-                                <div className="project-page-item-footer">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                    <img src={arrow} alt="" />
-                                </div>
+                                <a href="https://dashboard-three-delta-61.vercel.app/" className="project-page-item-footer" target="_blank" rel="noopener noreferrer">
+                                <p>Live Link</p>
+                                    <img src={arrow} alt="Arrow" />
+                                </a>
                             </a>
                         </div>
                         <div className="project-page-item">
                             <div className="project-page-item-number">
-                                <p>05/06</p>
+                                <p>August 2024</p>
                             </div>
                             <a href="/">
                                 <div className="project-page-item-header">
-                                    <h1>Lorem, ipsum.</h1>
-                                    <p>Lorem, ipsum.</p>
+                                    <h1>Spark 2k24-2k24</h1>
+                                    <p>Html css & Javascript</p>
                                 </div>
                                 <div className="project-page-item-image project-page-item-image5"></div>
-                                <div className="project-page-item-footer">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                    <img src={arrow} alt="" />
-                                </div>
+                                <a href="https://spark2k24-25.netlify.app/" className="project-page-item-footer" target="_blank" rel="noopener noreferrer">
+                                <p>Live Link</p>
+                                    <img src={arrow} alt="Arrow" />
+                                </a>
                             </a>
                         </div>
                         <div className="project-page-item">
                             <div className="project-page-item-number">
-                                <p>06/06</p>
+                                <p>December 2023</p>
                             </div>
                             <a href="/">
                                 <div className="project-page-item-header">
-                                    <h1>Lorem, ipsum.</h1>
-                                    <p>Lorem, ipsum.</p>
+                                    <h1>Saif's Cuisine</h1>
+                                    <p>HTMl & css</p>
                                 </div>
                                 <div className="project-page-item-image project-page-item-image6"></div>
-                                <div className="project-page-item-footer">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                    <img src={arrow} alt="" />
-                                </div>
+                                <a href="https://candid-nasturtium-1b0197.netlify.app/" className="project-page-item-footer" target="_blank" rel="noopener noreferrer">
+                                <p>Live Link</p>
+                                    <img src={arrow} alt="Arrow" />
+                                </a>
                             </a>
                         </div>
                     </div>

@@ -23,9 +23,6 @@ function Header() {
                     <li>
                         <Link to="/contact" className='li'>Contact</Link>
                     </li>
-                    <li>
-                        <Link to="" className='li'>Youtube</Link>
-                    </li>
                 </ul>
             </header>
         </div>

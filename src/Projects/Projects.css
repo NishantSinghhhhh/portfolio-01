@@ -73,8 +73,9 @@
     background-color: #642420;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     margin-top: 10px;
+    filter: grayscale(100%);
 }
 .project-page-item-footer{
     display: flex;
@@ -98,20 +99,21 @@
     transform: rotate(270deg);
 }
 .project-page-item-image1{
- background-image: url(../Assets/project1.jpg);   
+    /* object-fit: cover; */
+ background-image: url(../Assets/yoom.png);   
 }
 .project-page-item-image2{
- background-image: url(../Assets/project2.jpg);   
+ background-image: url(../Assets/ai-content.png);   
 }
 .project-page-item-image3{
- background-image: url(../Assets/project3.jpg);   
+ background-image: url(../Assets/IR.png);   
 }
 .project-page-item-image4{
- background-image: url(../Assets/project4.jpg);   
+ background-image: url(../Assets/dashboard.png);   
 }
 .project-page-item-image5{
- background-image: url(../Assets/project5.jpg);   
+ background-image: url(../Assets/spark.png);   
 }
 .project-page-item-image6{
- background-image: url(../Assets/project6.jpg);   
+ background-image: url(../Assets/saifs.png);   
 }
