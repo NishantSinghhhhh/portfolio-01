@@ -8,8 +8,9 @@
     margin-right: 5vw;
     height: 50vh;
     border-bottom: 1px dashed black;
-    overflow-x: hidden;
-    width: 100%;
+    overflow: hidden;
+    width: 100vw;
+    overflow-y: hidden;
 }
 
 .my-projects h1 {

@@ -7,7 +7,7 @@ import flower from '../Assets/flower.svg'
 function About() {
     return (
         <>
-        <div>
+        <div >
             <div className="about">
                 <Header />
                 <div className="about-container">

@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer'
 import flower from '../Assets/flower.svg'
 function Contact() {
     return (
-        <div>
+        <div className='contact'>
             <Header />
             <div className="contact-page">
                 <div className="contact-page-container">

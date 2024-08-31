@@ -1,3 +1,8 @@
+.contact{
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 .contact-page-container {
     display: flex;
     align-items: center;
