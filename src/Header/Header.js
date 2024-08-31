@@ -56,11 +56,10 @@ function Header() {
                     <div className="close-btn"><RiCloseLargeLine /></div>
                 </div>
                 <div className="overlay-nav">
-                    <a href=".page1">Home</a>
-                    <a href=".page3">Schedule</a>
-                    <a href=".page5">Mentors</a>
-                    <a href=".page4">Events</a>
-                    <a href=".page6">FAQs</a>
+                    <a href="/">Home</a>
+                    <a href="/about">About</a>
+                    <a href="/projects">Projects</a>
+                    <a href="/contact">Contact</a>
                 </div>
                 <div className="overlay-bottom">
                     <ul>
@@ -68,8 +67,8 @@ function Header() {
                     </ul>
                 </div>
             </div>
+                <div className='header'>
 
-            <header>
                 <div id="logo"></div>
                 <div className="toggle-menu">
                     <RxHamburgerMenu />
@@ -88,7 +87,8 @@ function Header() {
                         <Link to="/contact" className="li">Contact</Link>
                     </li>
                 </ul>
-            </header>
+                </div>
+        
         </>
     );
 }
