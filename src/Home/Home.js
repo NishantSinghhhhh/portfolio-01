@@ -82,19 +82,22 @@ function Home() {
                     {/* Skill Boxes */}
                     {/* Repeated code for skill boxes can be made DRY (Don't Repeat Yourself) */}
                     {[
-                        { title: "HTML5", desc: "I mainly used to develop Website Markup" },
-                        { title: "CSS3", desc: "I use this to style and bring design to browsers" },
-                        { title: "JavaScript", desc: "With this technology I create visual effects and interaction and DOM elements" },
-                        { title: "React.js", desc: "I loved it! I use it to create applications that have a lot of reactivity" },
-                        { title: "Greensock - GSAP", desc: "I used this as an animation library, The most loved ones!" },
-                        { title: "MongoDB", desc: "MongoDB is a flexible, document-oriented NoSQL database designed for scalability, high performance, and ease of development." },
-                        { title: "Express JS", desc: "I use Express.js for its simplicity in handling routing and middleware, making server-side development quick and efficient." },
-                        { title: "Node.js", desc: "I use it to writing server scripting for applications" },
-                        { title: "Next JS", desc: "I use Next.js for its fast server-side rendering and easy routing, which enhance performance and development efficiency" },
-                        { title: "Git & Github", desc: "I use Git for version control and GitHub for collaboration and code hosting." },
-                        { title: "Redux Toolkit", desc: "Redux Toolkit simplifies state management with its easy-to-use API and built-in tools for creating and managing Redux stores." },
-                        { title: "Prisma ORM", desc: "Prisma ORM streamlines database management with its intuitive schema modeling, type-safe queries, and automated migrations." },
-                    ].map((skill, idx) => (
+    { title: "HTML5", desc: "Used for website markup development" },
+    { title: "CSS3", desc: "Styles and designs webpages" },
+    { title: "JavaScript", desc: "Creates effects and interacts with DOM" },
+    { title: "React.js", desc: "Builds reactive and dynamic applications" },
+    { title: "Greensock - GSAP", desc: "Animation library for rich animations" },
+    { title: "MongoDB", desc: "Flexible, scalable NoSQL database" },
+    { title: "Express JS", desc: "Simplifies server-side routing and middleware" },
+    { title: "Node.js", desc: "Server-side scripting for applications" },
+    { title: "Next JS", desc: "Enhances performance with server-side rendering" },
+    { title: "Git & Github", desc: "Version control and code collaboration" },
+    { title: "Redux Toolkit", desc: "Simplifies state management with Redux" },
+    { title: "Prisma ORM", desc: "Streamlines database management and migrations" }
+]
+
+                    
+                    .map((skill, idx) => (
                         <div key={idx} className="skill-set-box">
                             <h1 className="skill-set-box-h1">{skill.title}</h1>
                             <p className="skill-set-box-p">{skill.desc}</p>
