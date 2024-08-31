@@ -181,6 +181,7 @@
 @media (max-width: 768px) {
     .my-projects h1 {
         font-size: 120px;
+        font-family: "PT Serif", serif;
     }
     .my-projects{
         overflow: hidden;
@@ -221,6 +222,7 @@
         font-size: 6rem;
         margin-left: 2vw;
         margin-right: 2vw;
+        font-family: "PT Serif", serif;
     }
     
     .project-page-item {
