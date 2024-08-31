@@ -38,7 +38,7 @@ function Projects() {
                             <div className="project-page-item-number">
                                 <p>May 2024 June 2024</p>
                             </div>
-                            <a target="_blank"  href="https://ai-content-generator-01.netlify.app/">
+                            <a target="_blank"  href="https://ai-content-generator-01.netlify.app/" >
                                 <div className="project-page-item-header">
                                     <h1>AI Content Generator</h1>
                                     <p>Nextjs gemini</p>
@@ -87,7 +87,7 @@ function Projects() {
                             <div className="project-page-item-number">
                                 <p>August 2024</p>
                             </div>
-                            <a  target="_blank" href="https://spark2k24-25.netlify.app/">
+                            <a target="_blank" href="https://spark2k24-25.netlify.app/">
                                 <div className="project-page-item-header">
                                     <h1>Spark 2k24-2k24</h1>
                                     <p>Html css & Javascript</p>

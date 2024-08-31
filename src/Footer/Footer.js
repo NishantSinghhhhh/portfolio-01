@@ -15,10 +15,10 @@ function Footer() {
                            Social
                        </div>
                        <div className="social-links-items">
-                           <a href="https://www.instagram.com/_nishant_singhh_/">Instagram</a>
-                           <a href="https://x.com/Nishant37315718?t=ihpQOy_8NvLLSuwTEOhEWQ&s=09">Twitter</a>
-                           <a href="https://github.com/NishantSinghhhhh">Github</a>
-                           <a href="https://www.linkedin.com/in/nishant-singh-8a5a00282/">LinkedIn</a>
+                           <a target='_blank' href="https://www.instagram.com/_nishant_singhh_/">Instagram</a>
+                           <a target='_blank' href="https://x.com/Nishant37315718?t=ihpQOy_8NvLLSuwTEOhEWQ&s=09">Twitter</a>
+                           <a target='_blank' href="https://github.com/NishantSinghhhhh">Github</a>
+                           <a target='_blank' href="https://www.linkedin.com/in/nishant-singh-8a5a00282/">LinkedIn</a>
                        </div>
                    </div>
                    <div className="social-links">
