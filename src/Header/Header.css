@@ -1,4 +1,5 @@
-header{
+/* Default styles */
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -10,17 +11,23 @@ header{
     z-index: 1000;
     transition: .6s ease-in-out;
 }
-#logo{
+
+#logo {
     font-size: 1.2vw;
     font-family: 'Inter';
     transition: .6s ease-in-out;
     font-weight: bold;
     font-family: 'Ogg';
 }
-.toggle-menu{
+
+.toggle-menu {
+    margin-right: 30px;
     display: none;
+    font-size: 30px;
+    padding-right: 20px;
 }
-.menu-items{
+
+.menu-items {
     position: fixed;
     top: 20px;
     right: 60px;
@@ -29,7 +36,8 @@ header{
     transition: .6s ease-in-out;
     transition: display 1s ease-in-out;
 }
-.menu-items li, .li{
+
+.menu-items li, .li {
     font-family: 'Inter';
     margin-top: 10px;
     text-transform: uppercase;
@@ -41,16 +49,17 @@ header{
     margin-left: 20px;
     mix-blend-mode: difference;
 }
-.li:hover::before{
+
+.li:hover::before {
     opacity: 1;
     transform: scaleX(1);
     transform-origin: 0 50%;
-    transition: trasnform 0.7s cubic-bezier(0.2,1,0.3,1), opacity 0.1s linear;
+    transition: transform 0.7s cubic-bezier(0.2,1,0.3,1), opacity 0.1s linear;
 }
-.li::before{
+
+.li::before {
     content: "";
     position: absolute;
-    left: auto;
     margin-top: 22px;
     width: 40%;
     height: 2px;
@@ -62,8 +71,125 @@ header{
     transition: transform 0.3s cubic-bezier(0.2,1,0.3,1), opacity 0.1s linear 0.2s;
 }
 
-@media(max-width: 768px)  {
-    .menu-items{
+/* Media query for screens less than 768px */
+@media (max-width: 768px) {
+    .menu-items {
         display: none;
     }
+
+    .toggle-menu {
+        display: block; /* Show the toggle menu */
+    }
+
+    header {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+}
+
+.hamburger {
+    color: #919191;
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(2px);
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    border: 1px solid #4a4a4a;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-overlay {
+    height: 100%;
+    background: #101010;
+    width: 0;
+    top: 0;
+    position: fixed;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: ease-in-out 0.5s;
+    opacity: 0;
+    pointer-events: auto;
+}
+
+.overlay-top {
+    width: 90%;
+    margin: 6vw auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overlay-top img {
+    height: 6vw;
+}
+
+/* Apply styles to all images with the class 'imgIcon' */
+.imgIcon {
+    filter: invert(100%) sepia(100%) saturate(1000%) hue-rotate(0deg)
+      brightness(100%) contrast(100%);
+    filter: invert(1);
+}
+
+.overlay-top .close-btn {
+    font-family: Mona-sans-md;
+    font-size: 30px;
+    z-index: 100;
+    color: white;
+}
+
+.close-btn {
+    cursor: pointer;
+}
+
+.overlay-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    width: 0;
+    transition: ease-in-out 2s;
+}
+
+.overlay-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 5vw;
+    font-family: Mona-sans-md;
+}
+
+.overlay-bottom {
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+.overlay-bottom ul {
+    width: 90%;
+    margin: 1vw auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.overlay-bottom ul li a {
+    display: flex;
+    gap: 2vw;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: Mona-sans-md;
+    font-size: 4vw;
+}
+
+.overlay-bottom ul li a img {
+    height: 4vw;
+}
+
+.no-scroll {
+    overflow: hidden;
 }
