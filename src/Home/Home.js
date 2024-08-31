@@ -38,10 +38,10 @@ function Home() {
                 <div></div>
                 <div className="container1">
                     <div className="txt-line" id="digital">
-                        <p>Digital</p>
+                        <p>Web</p>
                     </div>
-                    <div className="txt-line line-bottom" id="designer">
-                        <p>Designer</p>
+                    <div className="txt-line line-bottom" id="digital">
+                        <p>Architect</p>
                     </div>
                 </div>
             </div>

@@ -1,9 +1,8 @@
-.container-text{
+.container-text {
     position: absolute;
     top: 0;
     left: 0;
     margin-left: 10%;
-    margin-top: 5vh;
     display: flex;
     font-size: 200px;
     font-family: 'Ogg';
@@ -11,32 +10,34 @@
     overflow: hidden;
     flex-direction: column;
     justify-content: center;
-    letter-spacing: -10px;
 }
+
 .container-text p {
     overflow: hidden;
-    /* line-height: 20px; */
     height: 300px;
 }
-.container-inner-text2{
+
+.container-inner-text2 {
     margin-top: -520px;
 }
-.container-quote{
+
+.container-quote {
     position: absolute;
     top: 70vh;
     right: 100px;
     font-family: 'Inter';
-    font-size: 15px;
+    font-size: 1rem;
     color: #642420;
     word-spacing: 10px;
     text-transform: uppercase;
     font-weight: 300;
 }
-.container-image{
+
+.container-image {
     position: absolute;
     top: 95vh;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 50vw;
     background: url(../Assets/about-image.jpeg) 50% 50% no-repeat;
     background-size: cover;
@@ -44,12 +45,14 @@
     height: 110vh;
     z-index: -1;
 }
-.container-quote2{
+
+.container-quote2 {
     position: absolute;
     top: 160vh;
     left: 10%;
 }
-.about-container2{
+
+.about-container2 {
     position: absolute;
     top: 190vh;
     display: flex;
@@ -59,34 +62,38 @@
     width: 100%;
     flex-direction: column;
 }
+
 .about-container2-heading,
 .about-container2-heading2,
-.about-container2-heading2 p{
+.about-container2-heading2 p {
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 50px;
 }
+
 .about-container2-heading p,
-.about-container2-heading2 p{
+.about-container2-heading2 p {
     font-size: 10rem;
     font-family: 'Ogg';
     line-height: 0%;
     font-weight: lighter;
-    /* letter-spacing: -8px; */
-    
 }
-.main{
+
+.main {
     margin-top: 10%;
     width: 60%;
     margin-bottom: 10%;
 }
-.main2{
+
+.main2 {
     padding-top: 10%;
 }
-.about-container2-heading2 p{
+
+.about-container2-heading2 p {
     text-decoration: line-through 5px #806868;
 }
-.about-container2-p p{
+
+.about-container2-p p {
     font-size: 18px;
     font-family: 'Inter';
     margin-bottom: 80px;
@@ -96,30 +103,122 @@
     font-weight: 300;
     text-transform: uppercase;
 }
-.about-container2-p-right{
+
+.about-container2-p-right {
     text-align: left;
     width: 100%;
-    /* margin: a; */
-    line-height: 1.8rem
+    line-height: 1.8rem;
 }
-.about-container-flower{
+
+.about-container-flower {
     position: absolute;
     top: 80vh;
     left: 100px;
     animation: animate-rotate 10s infinite linear;
-
 }
-.about-container-flower img{
+
+.about-container-flower img {
     width: 100px;
 }
-.about-footer{
+
+.about-footer {
     margin-top: 500vh;
 }
+
 @keyframes animate-rotate {
-    from{
+    from {
         transform: rotate(0deg);
     }
-    to{
+    to {
         transform: rotate(360deg);
+    }
+}
+
+/* Tablet view */
+@media (max-width: 1024px) {
+    .container-text {
+        font-size: 150px;
+        margin-left: 5%;
+    }
+    .container-quote {
+        font-size: 12px;
+        right: 50px;
+    }
+    .container-image {
+        width: 70vw;
+        height: 90vh;
+    }
+    .about-container2-heading p,
+    .about-container2-heading2 p {
+        font-size: 7rem;
+    }
+}
+
+/* Small tablet view */
+@media (max-width: 768px) {
+    .container-inner-text1,
+    .container-inner-text2 {
+        font-size: 6rem;
+    }
+    .container-text {
+        font-size: 100px;
+        margin-left: 5%;
+    }
+    .container-quote {
+        font-size: 10px;
+        right: 30px;
+    }
+    .container-image {
+        width: 80vw;
+        height: 80vh;
+    }
+    .about-container2-heading p,
+    .about-container2-heading2 p {
+        font-size: 6rem;
+    }
+    .about-footer{
+        margin-top: 470vh;
+    }
+    .about-text-lower{
+        font-size: 5rem
+    }
+    /* .about-container2-heading2 p{
+
+    } */
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+    .container-text {
+        font-size: 60px;
+        margin-left: 2%;
+    }
+    .container-quote {
+        font-size: 8px;
+        right: 20px;
+    }
+    .container-image {
+        width: 90vw;
+        height: 70vh;
+    }
+    .about-container2-heading p,
+    .about-container2-heading2 p {
+        font-size: 3rem;
+    }
+    .about-container2-p p {
+        font-size: 14px;
+        /* margin-bottom: 50px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-footer {
+        margin-top: 300vh;
+    }
+    .heading{
+        font-size: 4rem;
+    }
+    .about-footer{
+        margin-top: 470vh;
     }
 }

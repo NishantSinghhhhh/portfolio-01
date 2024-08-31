@@ -6,20 +6,25 @@
     height: 600px;
     margin-top: 250px;
     flex-direction: column;
+    text-align: center; /* Ensure content is centered horizontally */
 }
+
 .get-in-touch h1 {
-    font-size: 200px;
+    font-size: 10rem;
     font-weight: lighter;
     font-family: 'Ogg';
+    margin: 0; /* Remove any default margin that might push it off-center */
 }
+
 .get-in-touch p {
     font-size: 20px;
     margin-top: -10px;
     font-weight: 300;
     text-transform: uppercase;
     font-family: 'Inter';
-    /* text-align: center; */
+    margin: 0; /* Remove any default margin */
 }
+
 .get-in-touch img {
     width: 500px;
     margin-top: -400px;
@@ -39,7 +44,7 @@
 /* Tablet view */
 @media screen and (max-width: 1024px) {
     .get-in-touch h1 {
-        font-size: 150px;
+        font-size: 10rem;
     }
     .get-in-touch p {
         font-size: 18px;
@@ -54,21 +59,34 @@
 /* Mobile view */
 @media screen and (max-width: 767px) {
     .get-in-touch {
-        padding: 0 1.25rem;
+        /* padding: 0 1.25rem; */
         margin-top: 10px;
     }
     .get-in-touch h1 {
-        font-size: 100px;
+        font-size: 6.5rem;
     }
     .get-in-touch p {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         font-size: 16px;
         margin-top: -50px;
     }
     .get-in-touch img {
         width: 300px;
         margin-top: -300px;
+    }
+}
+
+
+
+/* Large Desktop View */
+@media screen and (min-width: 1440px) {
+    .get-in-touch h1 {
+        font-size: 200px;
+    }
+    .get-in-touch p {
+        font-size: 22px;
+    }
+    .get-in-touch img {
+        width: 600px;
+        margin-top: -450px;
     }
 }

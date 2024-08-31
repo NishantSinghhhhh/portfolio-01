@@ -52,13 +52,18 @@ function About() {
                         With a robust background in full-stack development, I excel at crafting sophisticated web applications that seamlessly integrate both front-end and back-end technologies. My proficiency spans a variety of frameworks and tools, including React for dynamic user interfaces, Express.js for efficient server-side logic, and Next.js for optimizing performance with server-side rendering and static site generation. This combination allows me to build responsive, high-performance applications that deliver exceptional user experiences.
                             </p>
                     </div>
+                    {/* div */}
+                    
                     <div className="about-container2-heading2">
-                        <div className="about-text-lower">
-                            <p> My feature?</p>
+                        <div className="about-text-lower heading">
+                            <p> My</p>
+                        </div>
+                        <div className="about-text-lower heading">
+                            <p> feature?</p>
                         </div>
                     </div>
-                    <div className="about-container2-p">
-                        <p className=" main2 about-container2-p-right">
+                    <div className="about-container2-p main">
+                        <p className=" about-container2-p-right">
                         In code and design, you weave your art,  <br/>
                         From front-end flair to back-end heart. <br/> 
                         With React and Express, you craft with might,  <br/>
