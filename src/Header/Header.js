@@ -35,8 +35,8 @@ function Header() {
         const closeOverlay = () => {
             overlay.style.width = '0';
             overlay.style.opacity = '0';
-            hamburger.style.display = 'block'; // Show the hamburger menu when overlay is closed
-            document.body.classList.remove('no-scroll'); // Allow body scrolling
+            hamburger.style.display = 'block'; // 
+            document.body.classList.remove('no-scroll'); 
         };
 
         hamburger.addEventListener('click', openOverlay);
