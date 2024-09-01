@@ -1,21 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
-/* .jetbrains-mono-<uniquifier> {
-    font-family: "JetBrains Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  } */
 *{
     font-family: "JetBrains Mono", monospace;
-    /* width: 95%; */
-    /* margin: auto; */
+  
 }
-/* .header{
-    z-index: 10000;
-} */
+
 .home{
-    width: 100vw;
+    width: 100%;
     overflow-y: hidden;
     overflow-x: hidden;
 }

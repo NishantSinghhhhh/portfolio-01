@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden; /* Prevent horizontal overflow on all devices */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden; /* Ensure no overflow on smaller screens */
+  }
+}
+
+/* Extra small devices (less than 480px) */
+@media (max-width: 480px) {
+  body {
+    overflow-x: hidden; /* Ensure no overflow on very small screens */
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    overflow-x: hidden; /* Ensure no overflow on medium screens */
+  }
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
+  body {
+    overflow-x: hidden; /* Ensure no overflow on larger screens */
+  }
 }

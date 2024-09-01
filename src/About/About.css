@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 .about{
     width: 100vw;
@@ -13,7 +13,7 @@
     margin-left: 10%;
     display: flex;
     font-size: 200px;
-    font-family: "PT Serif", serif;
+    font-family: "JetBrains Mono", monospace;
     font-weight: normal;
     overflow: hidden;
     flex-direction: column;
@@ -35,7 +35,7 @@
     position: absolute;
     top: 70vh;
     right: 100px;
-    font-family: 'Inter';
+    font-family: "JetBrains Mono", monospace;
     font-size: 1rem;
     color: #642420;
     word-spacing: 10px;
@@ -84,9 +84,10 @@
 .about-container2-heading p,
 .about-container2-heading2 p {
     font-size: 10rem;
-    font-family: "PT Serif", serif;
+    font-family: "JetBrains Mono", monospace;
     line-height: 0%;
-    font-weight: lighter;
+    letter-spacing: -13px;
+    font-weight: normal;
 }
 
 .main {
@@ -105,7 +106,7 @@
 
 .about-container2-p p {
     font-size: 18px;
-    font-family: 'Inter';
+    font-family: "JetBrains Mono", monospace;
     margin-bottom: 80px;
     color: #642420;
     word-spacing: 12px;
