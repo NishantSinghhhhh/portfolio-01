@@ -1,4 +1,5 @@
 /* Default styles */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 .header {
 
     top: 0;
@@ -39,7 +40,7 @@
 }
 
 .menu-items li, .li {
-    font-family: 'Inter';
+    font-family: "JetBrains Mono", monospace;
     margin-top: 10px;
     text-transform: uppercase;
     font-size: 20px;

@@ -38,10 +38,10 @@ function Home() {
                 <div></div>
                 <div className="container1">
                     <div className="txt-line" id="digital">
-                        <p>Web</p>
+                        <p>Full</p>
                     </div>
                     <div className="txt-line line-bottom" id="digital">
-                        <p>Architect</p>
+                        <p>Stack</p>
                     </div>
                 </div>
             </div>
@@ -86,11 +86,11 @@ function Home() {
     { title: "CSS3", desc: "Styles and designs webpages" },
     { title: "JavaScript", desc: "Creates effects and interacts with DOM" },
     { title: "React.js", desc: "Builds reactive and dynamic applications" },
-    { title: "Greensock - GSAP", desc: "Animation library for rich animations" },
+    { title: "GSAP", desc: "Animation library for rich animations" },
     { title: "MongoDB", desc: "Flexible, scalable NoSQL database" },
     { title: "Express JS", desc: "Simplifies server-side routing and middleware" },
     { title: "Node.js", desc: "Server-side scripting for applications" },
-    { title: "Next JS", desc: "Enhances performance with server-side rendering" },
+    { title: "NextJS", desc: "Enhances performance with server-side rendering" },
     { title: "Git & Github", desc: "Version control and code collaboration" },
     { title: "Redux Toolkit", desc: "Simplifies state management with Redux" },
     { title: "Prisma ORM", desc: "Streamlines database management and migrations" }

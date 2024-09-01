@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 .my-projects {
     display: flex;
@@ -15,9 +15,9 @@
 
 .my-projects h1 {
 
-    font-family: "PT Serif", serif;
+    font-family: "JetBrains Mono", monospace;
     font-size: 220px;
-    font-weight: lighter;
+    font-weight: 100;
     line-height: 80%;
     text-transform: capitalize;
 
@@ -58,7 +58,7 @@
 .project-page-item-number p {
     font-size: 10px;
     font-weight: 500;
-    font-family: 'Inter';
+    font-family: "JetBrains Mono", monospace;
 }
 
 .project-page-item-header {
@@ -72,14 +72,14 @@
     font-size: 15px;
     font-weight: bold;
     width: 50%;
-    font-family: 'Inter';
+    font-family: "JetBrains Mono", monospace;
     text-transform: uppercase;
 }
 
 .project-page-item-header p {
     font-size: 10px;
     font-weight: 500;
-    font-family: 'Inter';
+    font-family: "JetBrains Mono", monospace;
     width: 50%;
     text-transform: uppercase;
 }
@@ -109,7 +109,7 @@
 .project-page-item-footer p {
     font-size: 12px;
     font-weight: 400;
-    font-family: 'Inter';
+    font-family: "JetBrains Mono", monospace;
     text-transform: uppercase;
 }
 
@@ -183,7 +183,7 @@
 @media (max-width: 768px) {
     .my-projects h1 {
         font-size: 120px;
-        font-family: "PT Serif", serif;
+        font-family: "JetBrains Mono", monospace;
     }
     .my-projects{
         overflow: hidden;
@@ -224,7 +224,7 @@
         font-size: 6rem;
         margin-left: 2vw;
         margin-right: 2vw;
-        font-family: "PT Serif", serif;
+        font-family: "JetBrains Mono", monospace;
     }
     
     .project-page-item {
